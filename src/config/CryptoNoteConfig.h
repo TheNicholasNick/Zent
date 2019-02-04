@@ -249,7 +249,7 @@ const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
 const char     LATEST_VERSION_URL[]                          = "http://zent.cash";
-const std::string LICENSE_URL                                = "https://github.com/turtlecoin/zentcash/";
+const std::string LICENSE_URL                                = "https://github.com/zentcash/zent/";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
     {  0xc3, 0x1c, 0x2b, 0x3c, 0xcc, 0x12, 0x45, 0x8c, 0x35, 0xd2, 0x91, 0xa2, 0xee, 0xa1, 0x23, 0xd9  }
