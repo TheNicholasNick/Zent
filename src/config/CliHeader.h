@@ -21,7 +21,7 @@ namespace CryptoNote
       << std::endl << std::endl
       << " " << PROJECT_COPYRIGHT
       << std::endl << std::endl
-      << " Additional Copyright(s) may apply, please see the included LICENSE file for more information." << std::endl
+      << " Copyright (c) 2019, The Zent Cash Project, please see the included LICENSE file for more information." << std::endl
       << " If you did not receive a copy of the LICENSE, please visit:" << std::endl
       << " " << CryptoNote::LICENSE_URL
       << std::endl << std::endl;
