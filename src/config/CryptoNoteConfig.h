@@ -214,7 +214,7 @@ const size_t   COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT         =  1000;
 
 const int      P2P_DEFAULT_PORT                              =  21888;
 const int      RPC_DEFAULT_PORT                              =  21898;
-const int      SERVICE_DEFAULT_PORT                          =  8070;
+const int      SERVICE_DEFAULT_PORT                          =  21899;
 
 const size_t   P2P_LOCAL_WHITE_PEERLIST_LIMIT                =  1000;
 const size_t   P2P_LOCAL_GRAY_PEERLIST_LIMIT                 =  5000;
@@ -256,9 +256,8 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-  "206.189.142.142:11897",//rock
-  "145.239.88.119:11999", //cision
-  "142.44.242.106:11897", //tom
-  "165.227.252.132:11897" //iburnmycd
+  "95.216.169.11:21888",//rock
+  "95.216.191.56:21888", //cision
+
 };
 } // CryptoNote
