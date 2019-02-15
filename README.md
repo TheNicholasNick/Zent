@@ -6,7 +6,7 @@ src="https://user-images.githubusercontent.com/46155884/52784512-a62f9380-3055-1
 
 ### Installing
 
-We offer binary images of the latest releases here: https://zent.cash
+We offer binary images of the latest releases here: https://github.com/Zentcash/Zent/releases/tag/0.1.1
 
 If you would like to compile yourself, read on.
 
