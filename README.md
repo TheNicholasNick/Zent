@@ -68,7 +68,7 @@ You need to modify the below command for your version of ubuntu - see https://ap
 - `export CC=clang-6.0`
 - `export CXX=clang++-6.0`
 - `git clone -b master --single-branch https://github.com/ZentCash/Zent`
-- `cd turtlecoin`
+- `cd zent`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
