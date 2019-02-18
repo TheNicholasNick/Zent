@@ -137,7 +137,7 @@ The binaries will be in the `src` folder when you are complete.
 - `export CC=/usr/local/opt/llvm/bin/clang`
 - `export CXX=/usr/local/opt/llvm/bin/clang++`
 - `git clone -b master --single-branch https://github.com/ZentCash/Zent`
-- `cd turtlecoin`
+- `cd zent`
 - `mkdir build`
 - `cd build`
 - `cmake ..`
