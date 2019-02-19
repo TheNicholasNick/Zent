@@ -37,8 +37,8 @@ const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 0;
 const size_t   ZAWY_DIFFICULTY_V2                            = 2;
 const uint8_t  ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION      = 3;
 
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX                 = 0;
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2              = 0;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX                 = 1;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2              = 2;
 const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3              = 3;
 
 const uint64_t LWMA_3_DIFFICULTY_BLOCK_INDEX                 = 2000000;
@@ -95,8 +95,8 @@ const uint64_t MAXIMUM_MIXIN_V1                              = 3;
 const uint64_t MINIMUM_MIXIN_V2                              = 3;
 const uint64_t MAXIMUM_MIXIN_V2                              = 3;
 
-const uint64_t MINIMUM_MIXIN_V3                              = 7;
-const uint64_t MAXIMUM_MIXIN_V3                              = 7;
+const uint64_t MINIMUM_MIXIN_V3                              = 3;
+const uint64_t MAXIMUM_MIXIN_V3                              = 3;
 
 /* The heights to activate the mixin limits at */
 const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 0;
@@ -150,8 +150,8 @@ const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 const uint32_t KEY_IMAGE_CHECKING_BLOCK_INDEX                = 0;
 
 const uint32_t UPGRADE_HEIGHT_V2                             = 1;
-const uint32_t UPGRADE_HEIGHT_V3                             = 2;
-const uint32_t UPGRADE_HEIGHT_V4                             = 3; // Upgrade height for CN-Lite Variant 1 switch.
+const uint32_t UPGRADE_HEIGHT_V3                             = 5;
+const uint32_t UPGRADE_HEIGHT_V4                             = 10; // Upgrade height for CN-Lite Variant 1 switch.
 const uint32_t UPGRADE_HEIGHT_V5                             = 350000; // Upgrade height for CN-Turtle Variant 2 switch.
 const uint32_t UPGRADE_HEIGHT_CURRENT                        = UPGRADE_HEIGHT_V5;
 
@@ -164,7 +164,7 @@ static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
 /* Block heights we are going to have hard forks at */
 const uint64_t FORK_HEIGHTS[] =
 {
-    3,  // 0
+    10,  // 0
     350000,  // 1
 
 };
@@ -252,7 +252,7 @@ const char     LATEST_VERSION_URL[]                          = "http://zent.cash
 const std::string LICENSE_URL                                = "https://github.com/zentcash/zent/";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
-    {  0xc3, 0x1c, 0x2b, 0x3c, 0xcc, 0x12, 0x45, 0x8c, 0x35, 0xd2, 0x91, 0xa2, 0xee, 0xa1, 0x23, 0xd9  }
+    {  0xc3, 0x1c, 0x2d, 0x3c, 0xcc, 0x12, 0x48, 0x8c, 0x33, 0xd2, 0x91, 0xa5, 0xee, 0xa1, 0x43, 0xd9  }
 };
 
 const char* const SEED_NODES[] = {
