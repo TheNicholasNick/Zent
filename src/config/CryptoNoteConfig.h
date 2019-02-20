@@ -69,11 +69,11 @@ TurtleCoind --print-genesis-tx --genesis-block-reward-address TRTLv2Fyavy8CXG8BP
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff000180d88ee16f02b9d96c21231ee83cd1375c5c7cf0ead43c40a793a273f8e9da99ac7a8f1843c82101cd63ab8b0c11f5db9a06446a1d6cb4eca8be4a667ba644263cdb9c3b6021d178";
+const char GENESIS_COINBASE_TX_HEX[] = "010a01ff000180d88ee16f02f87f7fa571c0350fdeb8af03815a5bed9869fe1a365d7295ca5ac86d428399db2101bfa38c9bae57aa4a9ef33984fa5cfbd711f7ff17cf4b5ee632cb2baf7a40a9d7";
 static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
-   You can get this value by doing "print_block 2" in TurtleCoind. It is used to know what timestamp
+   You can get this value by doing "print_block 2" in Zentd. It is used to know what timestamp
    to import from when the block height cannot be found in the node or the node is offline. */
 const uint64_t GENESIS_BLOCK_TIMESTAMP                       = 1512800692;
 
