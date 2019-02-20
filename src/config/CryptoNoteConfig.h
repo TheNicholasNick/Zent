@@ -100,7 +100,7 @@ const uint64_t MAXIMUM_MIXIN_V3                              = 3;
 
 /* The heights to activate the mixin limits at */
 const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 0;
-const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 100000;
+const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 1;
 const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 800000;
 
 /* The mixin to use by default with zedwallet and turtle-service */
@@ -150,8 +150,8 @@ const size_t   FUSION_TX_MIN_IN_OUT_COUNT_RATIO              = 4;
 const uint32_t KEY_IMAGE_CHECKING_BLOCK_INDEX                = 0;
 
 const uint32_t UPGRADE_HEIGHT_V2                             = 1;
-const uint32_t UPGRADE_HEIGHT_V3                             = 5;
-const uint32_t UPGRADE_HEIGHT_V4                             = 10; // Upgrade height for CN-Lite Variant 1 switch.
+const uint32_t UPGRADE_HEIGHT_V3                             = 2;
+const uint32_t UPGRADE_HEIGHT_V4                             = 3; // Upgrade height for CN-Lite Variant 1 switch.
 const uint32_t UPGRADE_HEIGHT_V5                             = 350000; // Upgrade height for CN-Turtle Variant 2 switch.
 const uint32_t UPGRADE_HEIGHT_CURRENT                        = UPGRADE_HEIGHT_V5;
 
@@ -252,7 +252,7 @@ const char     LATEST_VERSION_URL[]                          = "http://zent.cash
 const std::string LICENSE_URL                                = "https://github.com/zentcash/zent/";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
-    {  0xc3, 0x1c, 0x2d, 0x3c, 0xcc, 0x12, 0x48, 0x8c, 0x33, 0xd2, 0x91, 0xa5, 0xee, 0xa1, 0x43, 0xd9  }
+    {  0xc3, 0x1c, 0x2d, 0x6c, 0xcc, 0x12, 0x42, 0x9c, 0x33, 0xd6, 0x95, 0xa5, 0xee, 0xa1, 0x43, 0xd8  }
 };
 
 const char* const SEED_NODES[] = {
