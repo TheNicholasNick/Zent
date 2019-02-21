@@ -69,7 +69,7 @@ TurtleCoind --print-genesis-tx --genesis-block-reward-address TRTLv2Fyavy8CXG8BP
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char GENESIS_COINBASE_TX_HEX[] = "010a01ff000180d88ee16f022401652f851dd8b0780778e58fcd91504332e36cc67c2a1b3c27cf74d72557ba2101f15f05b337c8b4597372679a981947be743901c64aa23d73ef1c2bda980d507a";
+const char GENESIS_COINBASE_TX_HEX[] = "010a01ff000180d88ee16f023ce754b4c2b92b4e2d0fb411ec292f10ad1a17c1dd5149cadb0ae9524e0284e02101c0b9df54d4e2f400e4b184f402e24f03eda5bf07edea748551307025f9807f7f";
 static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
