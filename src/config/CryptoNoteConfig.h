@@ -90,7 +90,7 @@ const uint64_t MINIMUM_FEE                                   = UINT64_C(10);
 
 /* This section defines our minimum and maximum mixin counts required for transactions */
 const uint64_t MINIMUM_MIXIN_V1                              = 0;
-const uint64_t MAXIMUM_MIXIN_V1                              = 0;
+const uint64_t MAXIMUM_MIXIN_V1                              = 3;
 
 const uint64_t MINIMUM_MIXIN_V2                              = 3;
 const uint64_t MAXIMUM_MIXIN_V2                              = 3;
@@ -100,8 +100,8 @@ const uint64_t MAXIMUM_MIXIN_V3                              = 3;
 
 /* The heights to activate the mixin limits at */
 const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 0;
-const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 5;
-const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 800000;
+const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 1;
+const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 1;
 
 /* The mixin to use by default with zedwallet and turtle-service */
 /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
@@ -164,7 +164,7 @@ static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
 /* Block heights we are going to have hard forks at */
 const uint64_t FORK_HEIGHTS[] =
 {
-    10,  // 0
+    3,  // 0
     350000,  // 1
 
 };
